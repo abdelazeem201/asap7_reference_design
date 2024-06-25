@@ -1,9 +1,9 @@
 # Set the directory path where your .lib files are located
-set directory_path "/home/abdelazeem/Desktop/Abdelazeem/SoC_Project/asap7_reference_design/lib"
+set directory_path "../lib"
 
 # Set the output files paths
-set read_output_file "/home/abdelazeem/Desktop/Abdelazeem/SoC_Project/asap7_reference_design/lib/read_output.tcl"
-set write_output_file "/home/abdelazeem/Desktop/Abdelazeem/SoC_Project/asap7_reference_design/lib/write_output.tcl"
+set read_output_file "../lib/read_output.tcl"
+set write_output_file "../lib/write_output.tcl"
 
 # Open the output files for writing
 set read_outfile [open $read_output_file "w"]
